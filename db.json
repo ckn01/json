@@ -1,4 +1,24 @@
-[
+{"rows": [
+    {
+        "wilayah": "Negeri",
+        "jp36_laki_laki": 0,
+        "jp36_perempuan": 0,
+        "jp36_jumlah": 0,
+        "s_jp36_laki_laki": 0,
+        "s_jp36_perempuan": 0,
+        "s_jp36_jumlah": 0
+    },
+    {
+        "wilayah": "Swasta",
+        "jp36_laki_laki": 0,
+        "jp36_perempuan": 0,
+        "jp36_jumlah": 0,
+        "s_jp36_laki_laki": 0,
+        "s_jp36_perempuan": 0,
+        "s_jp36_jumlah": 0
+    }
+],
+"columns": [
     {
         "Header": "Wilayah 123",
         "accessor": "wilayah"
@@ -43,3 +63,4 @@
         ]
     }
 ]
+}
