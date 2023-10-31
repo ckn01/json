@@ -1,51 +1,45 @@
-
 [
-        {
-            Header: 'Wilayah',
-            columns: [
-                {
-                    Header: '',
-                    accessor: 'wilayah',
-                },
-            ]
-        },
-        {
-            Header: 'TK',
-            columns: [
-                {
-                    Header: 'Negeri',
-                    columns: [
-                        {
-                            Header: 'Laki-laki',
-                            accessor: 'jp36_laki_laki',
-                        },
-                        {
-                            Header: 'Perempuan',
-                            accessor: 'jp36_perempuan',
-                        },
-                        {
-                            Header: 'Jumlah',
-                            accessor: 'jp36_jumlah',
-                        },
-                    ]
-                },
-                {
-                    Header: 'Swasta',
-                    columns: [
-                        {
-                            Header: 'Laki-laki',
-                            accessor: 's_jp36_laki_laki',
-                        },
-                        {
-                            Header: 'Perempuan',
-                            accessor: 's_jp36_perempuan',
-                        },
-                        {
-                            Header: 'Jumlah',
-                            accessor: 's_jp36_jumlah',
-                        },
-                    ]
-                },
-            ]
-        }
-    ]
+    {
+        "Header": "Wilayah",
+        "accessor": "wilayah"
+    },
+    {
+        "Header": "TK",
+        "columns": [
+            {
+                "Header": "Negeri",
+                "columns": [
+                    {
+                        "Header": "Laki-laki",
+                        "accessor": "jp36_laki_laki"
+                    },
+                    {
+                        "Header": "Perempuan",
+                        "accessor": "jp36_perempuan"
+                    },
+                    {
+                        "Header": "Jumlah",
+                        "accessor": "jp36_jumlah"
+                    }
+                ]
+            },
+            {
+                "Header": "Swasta",
+                "columns": [
+                    {
+                        "Header": "Laki-laki",
+                        "accessor": "s_jp36_laki_laki"
+                    },
+                    {
+                        "Header": "Perempuan",
+                        "accessor": "s_jp36_perempuan"
+                    },
+                    {
+                        "Header": "Jumlah",
+                        "accessor": "s_jp36_jumlah"
+                    }
+                ]
+            }
+        ]
+    }
+]
